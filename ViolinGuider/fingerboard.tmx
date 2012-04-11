@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="24" height="32" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="fingerboard" tilewidth="32" tileheight="32">
+  <image source="fingerboard.png" width="768" height="1024"/>
+ </tileset>
+ <layer name="bgLayer" width="24" height="32">
+  <data encoding="base64" compression="zlib">
+   eJwV1oMSGAYARMHYtm3btm3btm1bbWzbtm3btpNuZ26/4V7AAAECBCIwQQhKMIITgpCEIjRhCEs4whOBiEQiMlGISjSiE4OYxCI2cYhLPOKTgIQkIjFJSEoykpOClKQiNWlISzrSk4GMZCIzWchKNrKTg5zkIjd5yEs+8lOAghSiMEUoSjGKU4KSlKI0ZShLOcpTgYpUojJVqEo1qlODmtSiNnWoSz3q04CGNKIxTWhKM5rTgpa0ojVtaEs72tOBjnSiM13oSje604Oe9KI3fehLP/ozgIEMYjBDGMowhjOCkYxiNGMYyzjGM4GJTGIyU5jKNKYzg5nM4h/+ZTZzmMs85rOAhSxiMUtYyjKWs4KVrGI1a1jLOtazgY1sYjNb2Mo2trODnexiN3vYyz72c4CDHOIwRzjKMY5zgpOc4jRnOMs5znOBi1ziMle4yjWuc4Ob3OI2d7jLPe7zgIc84jFPeMoznvOCl7ziNW94yzve84GPfOIzX/jKN77zg5/84jd/+EuAgEYgAhOEoAQjOCEISShCE4awhCM8EYhIJCIThahEIzoxiEksYhOHuMQjPglISCISk4SkJCM5KUhJKlKThrSkIz0ZyEgmMpOFrGQjOznISS5yk4e85CM/BShIIQpThKIUozglKEkpSlOGspSjPBWoSCUqU4WqVKM6NahJLWpTh7rUoz4NaEgjGtOEpjSjOS1oSSta04a2tKM9HehIJzrTha50ozs96EkvetOHvvSjPwMYyCAGM4ShDGM4IxjJKEYzhrGMYzwTmMgkJjOFqUxjOjOYySz+4V9mM4e5zGM+C1jIIhazhKUsYzkrWMkqVrOGtaxjPRvYyCY2s4WtbGM7O9jJLnazh73sYz8HOMghDnOEoxzjOCc4ySlOc4aznOM8F7jIJS5zhatc4zo3uMktbnOHu9zjPg94yCMe84SnPOM5L3jJK17zhre84z0f+MgnPvOFr3zjOz/4yS9+84e//H/8AQlEYIIQlGAEJwQhCUVowhCWcIQnAhGJRGSiEJVoRCcGMYlFbOIQl3jEJwEJSURikpCUZCQnBSlJRWrSkJZ0pCcDGclEZrKQlWxkJwc5yUVu8pCXfOSnAAUpRGGKUJRiFKcEJSlFacpQlnKUpwIVqURlqlCValSnBjWpRW3qUJd61KcBDWlEY5rQlGY0pwUtaUVr2tCWdrSnAx3pRGe60JVudKcHPelFb/rQl370ZwADGcRghjCUYQxnBCMZxWjGMJZxjGcCE5nEZKYwlWlMZwYzmcU//Mts5jCXecxnAQtZxGKWsJRlLGcFK1nFatawlnWsZwMb2cRmtrCVbWxnBzvZxW72sJd97OcABznEYY5wlGMc5wQnOcVpznCWc5znAhe5xGWucJVrXOcGN7nFbe5wl3vc5wEPecRjnvCUZzznBS95xWve8JZ3vOcDH/nEZ77wlW985wc/+cVv/vCX/6P/P4ufgZM=
+  </data>
+ </layer>
+ <objectgroup name="objLayer" width="24" height="32">
+  <object name="-1" type="g" x="283" y="232" width="35" height="32"/>
+  <object name="3+" type="a" x="396" y="122" width="32" height="32"/>
+  <object name="2" type="d" x="338" y="232" width="35" height="32"/>
+  <object name="2+:#,3:b" type="d" x="343" y="345" width="26" height="24"/>
+  <object name="-1+:#,1:b" type="d" x="341" y="38" width="29" height="25"/>
+  <object name="-1+:#,1:b" type="g" x="286" y="345" width="28" height="23"/>
+  <object name="-1+" type="g" x="282" y="302" width="35" height="35"/>
+  <object name="-1:#,-1+:b" type="g" x="286" y="271" width="28" height="24"/>
+  <object name="+3" type="e" x="449" y="489" width="36" height="32"/>
+  <object name="2+:#,3:b" type="a" x="398" y="38" width="28" height="25"/>
+  <object name="2:#,2+:b" type="d" x="341" y="271" width="30" height="25"/>
+  <object name="+1" type="a" x="395" y="490" width="33" height="30"/>
+  <object name="4+" type="a" x="393" y="303" width="37" height="33"/>
+  <object name="2+" type="d" x="339" y="303" width="34" height="33"/>
+  <object name="+1:#,+1+:b" type="e" x="454" y="272" width="28" height="24"/>
+  <object name="4:#,4+:b" type="a" x="398" y="272" width="29" height="24"/>
+  <object name="-3+:#,-2:b" type="g" x="286" y="38" width="28" height="24"/>
+  <object name="1" type="d" x="338" y="80" width="35" height="33"/>
+  <object name="-2" type="g" x="284" y="80" width="32" height="33"/>
+  <object name="5" type="e" x="451" y="36" width="34" height="29"/>
+  <object name="3+:#,4:b" type="a" x="399" y="187" width="27" height="24"/>
+  <object name="5:#,5+:b" type="e" x="456" y="86" width="26" height="24"/>
+  <object name="5+:#,+1:b" type="e" x="454" y="186" width="27" height="25"/>
+  <object name="1+:#,2:b" type="d" x="341" y="187" width="28" height="24"/>
+  <object name="-2+" type="g" x="283" y="184" width="34" height="30"/>
+  <object name="3" type="a" x="394" y="81" width="34" height="31"/>
+  <object name="1+" type="d" x="338" y="123" width="35" height="31"/>
+  <object name="+1" type="e" x="450" y="232" width="35" height="32"/>
+  <object name="-2:#,-2+:b" type="g" x="286" y="127" width="29" height="24"/>
+  <object name="4" type="a" x="395" y="232" width="33" height="33"/>
+  <object name="+1+" type="e" x="450" y="302" width="37" height="33"/>
+  <object name="+2" type="e" x="450" y="342" width="37" height="33"/>
+  <object name="1" type="g" x="281" y="373" width="37" height="33"/>
+  <object name="5" type="a" x="393" y="343" width="37" height="33"/>
+  <object name="1+" type="g" x="282" y="412" width="37" height="33"/>
+  <object name="3" type="d" x="338" y="373" width="37" height="33"/>
+  <object name="+2+" type="e" x="450" y="412" width="37" height="33"/>
+  <object name="5+" type="a" x="393" y="412" width="37" height="33"/>
+  <object name="+6+" type="e" x="449" y="909" width="37" height="33"/>
+  <object name="+4+" type="a" x="393" y="910" width="37" height="33"/>
+  <object name="+4+" type="e" x="450" y="660" width="37" height="33"/>
+  <object name="+5+" type="e" x="450" y="764" width="37" height="33"/>
+  <object name="+6" type="e" x="450" y="839" width="37" height="33"/>
+  <object name="+4" type="a" x="394" y="839" width="37" height="33"/>
+  <object name="+2" type="d" x="338" y="839" width="37" height="33"/>
+  <object name="+3+" type="a" x="394" y="764" width="37" height="33"/>
+  <object name="+5" type="e" x="449" y="725" width="37" height="33"/>
+  <object name="+3" type="a" x="394" y="724" width="37" height="33"/>
+  <object name="+4" type="e" x="450" y="592" width="37" height="33"/>
+  <object name="+1+" type="a" x="394" y="557" width="37" height="33"/>
+  <object name="4+" type="d" x="337" y="557" width="37" height="33"/>
+  <object name="2+" type="g" x="281" y="558" width="37" height="33"/>
+  <object name="+2+" type="a" x="394" y="660" width="37" height="33"/>
+  <object name="4" type="g" x="282" y="722" width="37" height="33"/>
+  <object name="+1" type="d" x="338" y="723" width="37" height="33"/>
+  <object name="+1+" type="d" x="338" y="801" width="37" height="33"/>
+  <object name="5" type="g" x="282" y="839" width="37" height="33"/>
+  <object name="4+" type="g" x="282" y="802" width="37" height="33"/>
+  <object name="+7" type="e" x="450" y="949" width="37" height="33"/>
+  <object name="5+" type="g" x="282" y="909" width="37" height="33"/>
+  <object name="+2+" type="d" x="338" y="909" width="37" height="33"/>
+  <object name="5+" type="d" x="338" y="658" width="37" height="33"/>
+  <object name="4" type="d" x="338" y="488" width="37" height="33"/>
+  <object name="+3+" type="e" x="449" y="524" width="37" height="33"/>
+  <object name="2" type="g" x="282" y="488" width="37" height="33"/>
+  <object name="3+" type="g" x="281" y="661" width="37" height="33"/>
+  <object name="3" type="g" x="282" y="625" width="37" height="33"/>
+  <object name="+5+:#,+6:b" type="e" x="455" y="805" width="27" height="25"/>
+  <object name="+3+:#,+4:b" type="a" x="399" y="805" width="27" height="25"/>
+  <object name="+4:#,+4+:b" type="a" x="399" y="878" width="27" height="25"/>
+  <object name="+6:#,+6+:b" type="e" x="454" y="877" width="27" height="25"/>
+  <object name="2:#,2+:b" type="d" x="342" y="877" width="27" height="25"/>
+  <object name="5:#,5+:b" type="g" x="287" y="879" width="27" height="25"/>
+  <object name="+1:#,+1+:b" type="d" x="342" y="767" width="27" height="25"/>
+  <object name="4:#,4+:b" type="g" x="287" y="767" width="27" height="25"/>
+  <object name="3+:#,4:b" type="g" x="288" y="696" width="27" height="25"/>
+  <object name="+1:#,+1+:b" type="d" x="342" y="695" width="27" height="25"/>
+  <object name="+2+:#,+3:b" type="a" x="399" y="695" width="27" height="25"/>
+  <object name="+4+:#,+5:b" type="e" x="454" y="696" width="27" height="25"/>
+  <object name="5:#,5+:b" type="d" x="343" y="629" width="27" height="25"/>
+  <object name="+2:#,+2+:b" type="a" x="399" y="630" width="27" height="25"/>
+  <object name="+4:#,+4+:b" type="e" x="454" y="629" width="27" height="25"/>
+  <object name="2:#,2+:b" type="g" x="288" y="528" width="27" height="25"/>
+  <object name="4:#,4+:b" type="d" x="344" y="528" width="27" height="25"/>
+  <object name="+1:#,+1+:b" type="a" x="400" y="527" width="27" height="25"/>
+  <object name="+3+:#,+4:b" type="e" x="455" y="560" width="27" height="25"/>
+  <object name="+2+:#,+3:b" type="e" x="455" y="453" width="27" height="25"/>
+  <object name="5+:#,+1:b" type="a" x="399" y="454" width="27" height="25"/>
+  <object name="3+:#,4:b" type="d" x="343" y="454" width="27" height="25"/>
+  <object name="1+:#,2:b" type="g" x="286" y="454" width="27" height="25"/>
+  <object name="5:#,5+:b" type="a" x="399" y="380" width="27" height="25"/>
+  <object name="+2:#,+2+:b" type="e" x="456" y="381" width="27" height="25"/>
+  <object name="2+:#,3:b" type="g" x="288" y="597" width="27" height="25"/>
+  <object name="5" type="d" x="338" y="593" width="37" height="33"/>
+  <object name="+2" type="a" x="394" y="593" width="37" height="33"/>
+  <object name="-3+" type="g" x="283" y="-5" width="37" height="33"/>
+  <object name="-1+" type="d" x="337" y="-3" width="37" height="33"/>
+  <object name="2+" type="a" x="394" y="-4" width="37" height="33"/>
+  <object name="4+" type="e" x="449" y="-4" width="37" height="33"/>
+  <object name="5+" type="e" x="452" y="120" width="32" height="32"/>
+  <object name="3+" type="d" x="338" y="411" width="37" height="33"/>
+ </objectgroup>
+</map>

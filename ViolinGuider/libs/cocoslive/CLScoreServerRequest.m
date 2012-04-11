@@ -77,9 +77,17 @@
 	reqRankOnly = NO;
 	
 	NSString *device = @"";
-	if( flags & kQueryFlagByDevice )
-		device = [[UIDevice currentDevice] uniqueIdentifier];
+	if( flags & kQueryFlagByDevice ) {
+        // device = [[UIDevice currentDevice] uniqueIdentifier];
+        CFUUIDRef uuidObj = CFUUIDCreate(nil); //create a new UUID
+        device = (NSString*)CFUUIDCreateString(nil, uuidObj); //get the string representation of the UUID
+        CFRelease(uuidObj);
+    }
+		
 	
+
+
+    
 	// arguments:
 	//  query: type of query
 	//  limit: how many scores are being requested. Default is 25. Maximun is 100
