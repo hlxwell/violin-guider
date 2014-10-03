@@ -79,7 +79,7 @@ class Notedown < Parslet::Parser
 
   # {:tune_action=>"#"@1, :note_numbers=>[{:note=>"3+"@3}, {:note=>"5"@6}]}
   def tune_info
-    @tune_info ||= @raw_parse_result.first if @raw_parse_result.first[:tune_action]
+    @tune_info ||= @raw_parse_result.first[:tune_action] ? @raw_parse_result.first : {}
   end
 
   # {:group=>[{:bow_direction=>"^"@27, :note=>"+2"@29, :tune_action=>"#"@32, :string_name=>"d"@34, :finger_index=>"3"@36}]}
@@ -100,11 +100,13 @@ class Notedown < Parslet::Parser
   end
 
   def tune_note_numbers
-    tune_info[:note_numbers].map {|n| n[:note].to_s }
+    if tune_info[:note_numbers]
+      tune_info[:note_numbers].map {|n| n[:note].to_s }
+    end  
   end
 
   def get_current_note_tune_action note
     same_tune_notes = NOTE_ON_POSITION.select { |k, v| v.include?(note) }.values.flatten
-    tune_info[:tune_action] if (same_tune_notes & tune_note_numbers).size > 0
+    tune_info[:tune_action] if same_tune_notes and tune_note_numbers and (same_tune_notes & tune_note_numbers).size > 0
   end
 end

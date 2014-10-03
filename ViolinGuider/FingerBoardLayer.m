@@ -44,9 +44,9 @@
 
         // Init menu
         backBtn = [CCMenuItemImage itemFromNormalImage:@"back.png" selectedImage:@"back.png" target:self selector:@selector(showPrevPoints:)];
-        [backBtn setPosition:CGPointMake(-210, -300)];
+        [backBtn setPosition:CGPointMake(-250, -300)];
         forwardBtn = [CCMenuItemImage itemFromNormalImage:@"forward.png" selectedImage:@"forward.png" target:self selector:@selector(showNextPoints:)];
-        [forwardBtn setPosition:CGPointMake(210, -300)];
+        [forwardBtn setPosition:CGPointMake(250, -300)];
         menu    = [CCMenu menuWithItems:backBtn, forwardBtn, nil];
 
         // Init TMXTileMap
